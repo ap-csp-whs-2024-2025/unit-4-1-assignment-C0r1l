@@ -3,18 +3,31 @@
 
 int main()
 {
-  int age = 16;
-  double price = 19.99;
-  bool hasPets = true;
-
+  
   // \n is = new line 
   // std::endl = new line
   // std:: cout = computer output
-  
-std:: cout << price << " \n " << age << std::endl << hasPets << std::endl;
+// string is variable 
+// needs quotation
+// How to run code: g++ classwork.cpp -o classwork, then type ./classwork
+
+
+//Exercise 1
+  int x = 25;
+  int y =3;
+  int add_xy;
+  int sub_xy;
+
+  add_xy = x + y;
+  sub_xy = x - y;
+  MOD_xy = x % y;
+
+  std::cout << add_xy << std::endl << sub_xy << std::endl << MOD_xy << std::endl;
+
  
-std::cout << "I am " << age << " years old. \n";
-std::cout << "I love to eat mangos. \n";
+
+
+
 
   return 0;
 }
